@@ -38,4 +38,5 @@ Route::get('/home' , App\Http\Livewire\Home::class);
 
 //Route::view('users','livewire.home');
 Route::get('/post2', Home::class);
+Route::get('/post3', Home::class);
 
